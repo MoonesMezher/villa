@@ -1,5 +1,5 @@
 import videoImg from '../../../assets/imgs/video-frame.jpg';
-import bgImg from '../../../assets/imgs/Dark contrast Modern Mansion.jpeg';
+import bgImg from '../../../assets/imgs/video-bg.jpg';
 import FeaturedItems from '../../../components/FeaturedItems/FeaturedItems';
 import { FaPlay } from 'react-icons/fa';
 import ImageBlurLanding from '../../../components/ImageBlurLanding/ImageBlurLanding';

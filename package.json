@@ -1,9 +1,9 @@
 {
+  "homepage": "https://moonesmezher.github.io/villa",
   "name": "villa",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://moonesmezher.github.io/villa",
   "scripts": {
     "predeploy": "vite build",
     "deploy": "gh-pages -d dist",

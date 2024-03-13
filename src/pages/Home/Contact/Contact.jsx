@@ -1,5 +1,5 @@
 import ImageBlurLanding from "../../../components/ImageBlurLanding/ImageBlurLanding";
-import bgImg from '../../../assets/imgs/deal-01.jpg'
+import bgImg from '../../../assets/imgs/contact-bg.jpg'
 import { FaMailBulk, FaPhone } from "react-icons/fa";
 import Form from "../../../components/Form/Form";
 import Map from "../../../components/Map/Map";

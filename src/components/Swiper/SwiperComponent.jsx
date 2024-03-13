@@ -1,8 +1,8 @@
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Img1 from '../../assets/imgs/Premium Photo _ Luxurious Modern Villa with Pool at Twilight.jpeg'
-import Img2 from '../../assets/imgs/Lake House Idea.jpeg'
-import Img3 from '../../assets/imgs/Dark contrast Modern Mansion.jpeg'
+import Img1 from '../../assets/imgs/banner-01.jpg'
+import Img2 from '../../assets/imgs/banner-02.jpg'
+import Img3 from '../../assets/imgs/banner-03.jpg'
 
 // Import Swiper styles
 import 'swiper/css';
