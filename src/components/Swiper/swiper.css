@@ -1,0 +1,43 @@
+.swiper-added-style {
+    @apply rounded-md overflow-hidden;
+}
+.swiper-swiperslide {
+    @apply w-full h-[95vh] relative;
+}
+.swiper-swiperslide-img {
+    @apply w-full h-full object-cover aspect-square bg-top;
+}
+.swiper-swiperslide-content-center {
+    @apply absolute top-[50%] translate-y-[-50%] left-[15%] z-30;
+}
+.swiper-swiperslide-content-center-location {
+    @apply bg-white px-3 py-2 rounded-sm w-fit font-bold;
+}
+.swiper-swiperslide-content-center-title {
+    @apply text-white mt-10 font-bold text-2xl sm:text-7xl;
+}
+.swiper-swiperslide-overlay {
+    @apply absolute left-0 top-0 w-full h-full z-20 bg-neutral-500 opacity-30;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    @apply  rounded-full p-5 w-[3rem] h-[3rem] duration-300 hover:bg-neutral-400;
+    background-color: rgb(115, 115, 115, 40%);
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    @apply text-white font-bold text-[1.5rem];
+}
+.swiper-button-next {
+    @apply right-[5%] hidden md:flex;
+}
+.swiper-button-prev {
+    @apply left-[5%] hidden md:flex;
+}
+.swiper-pagination.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    @apply w-fit bottom-0 left-[50%] translate-x-[-50%] z-20 hidden md:block;
+    background-color: rgb(115, 115, 115, 50%);
+}
+.swiper-pagination span {
+    @apply bg-white;
+}
