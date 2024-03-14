@@ -11,7 +11,7 @@ import PropertiesPage from "./pages/PropertiesPage/PropertiesPage";
 
 function App() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/villa">
           <Layout>
             <Routes>
               <Route path="/" element={<Home />} />
