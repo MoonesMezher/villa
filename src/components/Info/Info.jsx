@@ -1,4 +1,4 @@
-import { FaMapMarked } from "react-icons/fa"
+import { FaFileContract, FaHouseUser, FaMapMarked, FaPaypal, FaSave } from "react-icons/fa"
 import InfoItem from "./InfoItem";
 
 const Info = () => {
@@ -9,18 +9,18 @@ const Info = () => {
             subtitle: 'Total Flat Space',
         },
         {
-            icon: <FaMapMarked className="text-__orange text-5xl"/>,
+            icon: <FaFileContract className="text-__orange text-5xl"/>,
             title: 'Contract',
             subtitle: 'Contract Ready',
         },
         {
-            icon: <FaMapMarked className="text-__orange text-5xl"/>,
+            icon: <FaPaypal className="text-__orange text-5xl"/>,
             title: 'Payment',
             subtitle: 'Payment',
             underIcon: 'Process',
         },
         {
-            icon: <FaMapMarked className="text-__orange text-5xl"/>,
+            icon: <FaHouseUser className="text-__orange text-5xl"/>,
             title: 'Safety',
             subtitle: '24/7 Under',
             underIcon: 'Control',

@@ -1,0 +1,20 @@
+.spin-animate-1 {
+    animation: loading 1.2s ease infinite;
+}
+.spin-animate-2 {
+    animation: loading 1.2s .3s ease infinite;
+}
+.spin-animate-3 {
+    animation: loading 1.3s .6s ease infinite;
+}
+
+@keyframes loading {
+    50% {
+        transform: translateY(30%);
+        opacity: 50%;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 100%;
+    }
+}

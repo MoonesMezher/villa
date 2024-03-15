@@ -15,7 +15,7 @@ const NavBar = ({isVisible, setIsVisible, links, logo}) => {
                 <div onClick={() => setIsVisible(false)}>
                     <Logo logo={logo} style={'absolute left-[1rem] top-[1.2rem] z-20 md:hidden'}/>
                 </div>
-                <ScheduleBtn icon={true} style={'max-[991px]:hidden'}/>
+                <ScheduleBtn icon={true} style={'max-[991px]:hidden'} link={'/'}/>
                 <IoMdClose className="absolute right-[1rem] top-[1rem] text-[2.5rem] text-neutral-400 md:hidden" onClick={() => setIsVisible(false)}/>
             </ul>
             <IoMdMenu className="text-neutral-400 text-[2.5rem] cursor-pointer md:hidden" onClick={() => setIsVisible(true)}/>

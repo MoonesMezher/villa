@@ -1,27 +1,42 @@
 import {
-  BrowserRouter,
   Route,
   Routes,
+  useLocation,
 } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
 import Property from "./pages/Property/Property";
 import Layout from "./Layout/Layout";
 import PropertiesPage from "./pages/PropertiesPage/PropertiesPage";
+import { useEffect, useState } from "react";
+import Loading from "./components/Loading/Loading";
 
 function App() {
-    return (
-      <BrowserRouter basename="/villa">
-          <Layout>
+      const location = useLocation();
+
+      const [loading, setLoading] = useState(true);
+
+      useEffect(() => {
+          setTimeout(() => {
+            setLoading(false)
+          }, 2000);
+      }, [])
+      
+      useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [location])
+      
+      return (
+        <Layout>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/properties" element={<PropertiesPage />} />
               <Route path="/single-property" element={<Property />} />
               <Route path="/contact-us" element={<Contact />} />
             </Routes>
+            {loading && <Loading/>}
           </Layout>
-      </BrowserRouter>
-    )
+      )
 }
 
 export default App

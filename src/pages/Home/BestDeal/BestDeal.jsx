@@ -40,7 +40,7 @@ const BestDeal = () => {
                 info: {
                     title: 'Extra Info About Property',
                     discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse.| When you need free CSS templates, you can simply type TemplateMo in any search engine website. In addition, you can type TemplateMo Portfolio, TemplateMo One Page Layouts, etc.",
-                    link: '#'
+                    link: '/'
                 }
             },
             'Villa House': {
@@ -70,7 +70,7 @@ const BestDeal = () => {
                 info: {
                     title: 'Detail Info About Villa',
                     discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse.| Swag fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen.",
-                    link: '#'
+                    link: '/'
                 }
             },
             'Penthouse': {
@@ -100,7 +100,7 @@ const BestDeal = () => {
                 info: {
                     title: 'Extra Info About Penthouse',
                     discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse.| When you need free CSS templates, you can simply type TemplateMo in any search engine website. In addition, you can type TemplateMo Portfolio, TemplateMo One Page Layouts, etc.",
-                    link: '#'
+                    link: '/'
                 }
             },
         }

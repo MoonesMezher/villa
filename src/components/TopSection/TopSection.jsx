@@ -5,16 +5,16 @@ import SocialMediaIcon from "../SocialMediaIcon/SocialMediaIcon";
 const TopSection = ({isScroll}) => {
     const iconsSocialMedia = [
         {
-            href: '#', element: <IoLogoFacebook className="text-white font-bold"/>
+            href: '/', element: <IoLogoFacebook className="text-white font-bold"/>
         },
         {
-            href: '#', element: <IoLogoTwitter className="text-white font-bold"/>
+            href: '/', element: <IoLogoTwitter className="text-white font-bold"/>
         },
         {
-            href: '#', element: <IoLogoLinkedin className="text-white font-bold"/>
+            href: '/', element: <IoLogoLinkedin className="text-white font-bold"/>
         },
         {
-            href: '#', element: <IoLogoInstagram className="text-white font-bold"/>
+            href: '/', element: <IoLogoInstagram className="text-white font-bold"/>
         }
     ];
 

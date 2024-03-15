@@ -16,7 +16,7 @@ const PropertiesPage = () => {
     const propertiesJson = [
         {
             img: Prop1,
-            link: '/property',
+            link: '/single-property',
             type: 'Luxury Villa',
             price: '2.264.000',
             location: '18 New Street Miami, OR 97219',
@@ -31,7 +31,7 @@ const PropertiesPage = () => {
         },
         {
             img: Prop2,
-            link: '/property',
+            link: '/single-property',
             type: 'Luxury Villa House',
             price: '1.180.000',
             location: '54 Mid Street Florida, OR 27001',
@@ -46,7 +46,7 @@ const PropertiesPage = () => {
         },
         {
             img: Prop3,
-            link: '/property',
+            link: '/single-property',
             type: 'Luxury Villa House',
             price: '1.460.000',
             location: '26 Old Street Miami, OR 38540',
@@ -61,7 +61,7 @@ const PropertiesPage = () => {
         },
         {
             img: Prop4,
-            link: '/property',
+            link: '/single-property',
             type: 'Apartment',
             price: '584.500',
             location: '12 New Street Miami, OR 12650',
@@ -76,7 +76,7 @@ const PropertiesPage = () => {
         },
         {
             img: Prop5,
-            link: '/property',
+            link: '/single-property',
             type: 'Penthouse',
             price: '925.600',
             location: '34 Beach Street Miami, OR 42680',
@@ -91,7 +91,7 @@ const PropertiesPage = () => {
         },
         {
             img: Prop6,
-            link: '/property',
+            link: '/single-property',
             type: 'Modern Condo',
             price: '450.000',
             location: '22 New Street Portland, OR 16540',
@@ -106,7 +106,7 @@ const PropertiesPage = () => {
         },
         {
             img: Prop1,
-            link: '/property',
+            link: '/single-property',
             type: 'Luxury Villa House',
             price: '2.264.000',
             location: '18 New Street Miami, OR 97219',
@@ -121,7 +121,7 @@ const PropertiesPage = () => {
         },
         {
             img: Prop2,
-            link: '/property',
+            link: '/single-property',
             type: 'Luxury Villa House',
             price: '1.180.000',
             location: '54 Mid Street Florida, OR 27001',
@@ -136,7 +136,7 @@ const PropertiesPage = () => {
         },
         {
             img: Prop3,
-            link: '/property',
+            link: '/single-property',
             type: 'Luxury Villa House',
             price: '1.460.000',
             location: '26 Old Street Miami, OR 38540',
@@ -151,7 +151,7 @@ const PropertiesPage = () => {
         },
         {
             img: Prop4,
-            link: '/property',
+            link: '/single-property',
             type: 'Apartment',
             price: '584.500',
             location: '12 New Street Miami, OR 12650',
@@ -166,7 +166,7 @@ const PropertiesPage = () => {
         },
         {
             img: Prop5,
-            link: '/property',
+            link: '/single-property',
             type: 'Penthouse',
             price: '925.600',
             location: '34 Beach Street Miami, OR 42680',
@@ -181,7 +181,7 @@ const PropertiesPage = () => {
         },
         {
             img: Prop6,
-            link: '/property',
+            link: '/single-property',
             type: 'Modern Condo',
             price: '450.000',
             location: '22 New Street Portland, OR 16540',
