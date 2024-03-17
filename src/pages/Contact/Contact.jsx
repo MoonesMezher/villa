@@ -61,7 +61,7 @@ const Contact = () => {
             <Container style={'py-20 md:px-10 max-[991px]:px-10 max-[400px]:px-2'}>
                 <div className='flex justify-center gap-10 mb-20 max-[1100px]:flex-col'>
                     <div className='basis-[45%]'>
-                        <Title title={'CONTACT US'} discription={'Get In Touch With Our Agents'} style={'mx-0'}/>
+                        <Title title={'CONTACT US'} discription={'Get In Touch With Our Agents'} style={'mx-auto md:m-[0]'}/>
                         <p className='my-10 leading-8'>When you really need to download free CSS templates, please remember our website TemplateMo. Also, tell your friends about our website. Thank you for visiting. There is a variety of Bootstrap HTML CSS templates on our website. If you need more information, please contact us.</p>
                         <div className="flex justify-between gap-5 flex-col">
                             {items.map((item, i) => <ContactBoxes key={i} item={item}/>)}

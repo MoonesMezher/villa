@@ -108,8 +108,8 @@ const BestDeal = () => {
 
     return (
         <div className="flex flex-col gap-16">
-            <div className="flex justify-between min-[1101px]:items-end max-[1100px]:flex-col gap-5">
-                <Title title={'Best Deal'} discription={'Find Your Best Deal Right Now!'} style={'min-[769px]:mx-0'}/>
+            <div className="flex justify-center min-[1101px]:items-end max-[1100px]:flex-col gap-10">
+                <Title title={'Best Deal'} discription={'Find Your Best Deal Right Now!'} style={'mx-auto md:mx-0'}/>
                 <div className="flex justify-center gap-5 items-center flex-wrap">
                     {btns.map((btn, i) => <div key={i} onClick={(e) => setFilter(e.target.value)}>
                         <OriginalBtn text={btn}/>

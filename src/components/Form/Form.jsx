@@ -1,5 +1,5 @@
 import ScheduleBtn from "../Buttons/ScheduleBtn/ScheduleBtn"
-import InputItem from "../InputItem.jsx/InputItem"
+import InputItem from "../InputItem/InputItem"
 
 const Form = ({inputItems}) => {
     return (

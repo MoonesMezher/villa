@@ -23,14 +23,12 @@ const Accordion = () => {
     ]
 
     return (
-        <ul className='list-item bg-neutral-100 rounded-md mt-10 duration-500 w-[30em] max-[768px]:w-full'>
+        <ul className='list-item bg-neutral-100 rounded-md mt-10 duration-500 w-[30em] max-[768px]:w-full overflow-hidden'>
             {items.map((el, i) => (
                 <li key={i} >
-                    { i != 0 && <div className='w-full bg-neutral-300 h-[1px]'/>}
-                    <div className={`p-5 text-xl cursor-pointer duration-200 hover:text-__orange ${activeIndex === i && 'text-__orange'}`} onClick={() => toggleAccordion(i)}>{el.title}</div>
-                    {activeIndex === i && (
-                        <div className={`p-3 duration-1000 transition-all first-letter:text-__orange first-letter:font-bold first-letter:text-xl`}>{el.content}</div>
-                    )}
+                    { i != 0 && <div className='w-full bg-neutral-300 h-[1px] overflow-hidden'/>}
+                    <div className={`p-5 text-xl cursor-pointer duration-200 hover:text-__orange overflow-hidden ${activeIndex === i && 'text-__orange'}`} onClick={() => toggleAccordion(i)}>{el.title}</div>
+                    <div className={`duration-500 first-letter:text-__orange first-letter:font-bold first-letter:text-xl transition-transform ${activeIndex === i ? 'h-fit p-3': 'h-0 opacity-0 p-0 translate-x-[-100%]'}`}>{el.content}</div>
                 </li>
             ))}
         </ul>

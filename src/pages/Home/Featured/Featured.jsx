@@ -14,7 +14,7 @@ const Featured = () => {
                 </span>
             </div>
             <div className='basis-[100%] max-[768px]:w-full min-[1200px]:basis-[25%] mt-12 min-[1200px]:mt-0'>
-                <Title title={'Featured'} discription={'Best Appartment & Sea View'} style="text-left min-[769px]:mx-0 min-[1200px]:w-[8em]"/>
+                <Title title={'Featured'} discription={'Best Appartment & Sea View'} style="mx-auto md:mx-0"/>
                 <Accordion/>
             </div>
             <div className='basis-[100%] max-[768px]:w-full min-[1200px]:basis-[25%] w-[60%]'>
